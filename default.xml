@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch=".." name="infinix"/>
+  <remote fetch="https://github.com/" name="infinix"/>
   <remote  name="aosp"
            fetch="https://android.googlesource.com/" />
   <default revision="refs/tags/android-7.0.0_r35"
