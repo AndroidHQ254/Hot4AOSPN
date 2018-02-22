@@ -2,7 +2,7 @@
 <manifest>
   <remote fetch=".." name="infinix"/>
   <remote  name="aosp"
-           fetch=".." />
+           fetch="https://android.googlesource.com/" />
   <default revision="refs/tags/android-7.0.0_r35"
            remote="aosp"
            sync-j="4" />
