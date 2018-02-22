@@ -6,7 +6,6 @@
   <default revision="refs/tags/android-7.0.0_r35"
            remote="aosp"
            sync-j="4" />
-  <default remote="infinix" revision="X556N"/>
   <project name="platform/abi" path="abi"/>
   <project name="platform/art" path="art"/>
   <project name="platform/bionic" path="bionic"/>
