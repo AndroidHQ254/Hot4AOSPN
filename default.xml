@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="https://github.com/" name="infinix"/>
   <remote  name="aosp"
            fetch="https://android.googlesource.com/" />
   <default revision="refs/tags/android-7.0.0_r35"
@@ -15,8 +14,6 @@
   <project name="platform/dalvik"    path="dalvik"/> 
   <project name="platform/developers"    path="developers"/>
   <project name="platform/development"    path="development"/>
-  <project name="OpenSource-Infinix/android_device"    path="device"/>
-  <project name="OpenSource-Infinix/android_docs"    path="docs"/> 
   <project name="platform/external"    path="external"/>
   <project name="platform/external/clang"    path="external/clang"/>
   <project name="platform/external/conscrypt"    path="external/conscrypt"/>
@@ -28,12 +25,10 @@
   <project name="platform/libnativehelper"    path="libnativehelper"/>
   <project name="platform/ndk"    path="ndk"/>
   <project name="platform/packages"    path="packages"/>
-  <project name="OpenSource-Infinix/android_kernel-3.18"    path="kernel-3.18"/>
   <project name="platform/pdk"    path="pdk"/>
   <project name="platform/platform_testing"    path="platform_testing"/>
   <project name="platform/sdk"    path="sdk"/>
   <project name="platform/system"    path="system"/>
-  <project name="OpenSource-Infinix/android_toolchain"    path="toolchain"/>
   <project name="platform/prebuilts/go"    path="prebuilts/go"/>
   <project name="platform/prebuilts/clang"    path="prebuilts/clang"/>
   <project name="platform/prebuilts/maven-repo/android"    path="prebuilts/maven-repo/android"/>
@@ -54,11 +49,5 @@
   <project name="platform/prebuilts/tools"    path="prebuilts/tools"/>
   <project name="platform/tools/external"   path="tools/external"/>
   <project name="platform/tools/test"   path="tools/test"/>
-  <project name="OpenSource-Infinix/android_vendor"    path="vendor"/>
-  <project name="OpenSource-Infinix/android_vendor_mediatek_proprietary_bootable_lk_dev_logo"    path="vendor/mediatek/proprietary/bootable/bootloader/lk/dev/log"/>
-  <project name="OpenSource-Infinix/android_common"    path="android_common">
-   <copyfile dest="Makefile"  src="Makefile"/>
-   <copyfile dest="mbldenv.sh"  src="mbldenv.sh"/>
-   <copyfile dest="tidyDoc.sh"  src="tidyDoc.sh"/>
   </project>
 </manifest>
